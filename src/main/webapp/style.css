@@ -1,0 +1,28 @@
+
+ul.books-list > li, ul.authors-list > li {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted lightgrey;
+    padding: 10px 0;
+}
+
+.book-title:hover {
+    cursor: pointer;
+    color:darkgreen;
+}
+
+.btn-space:first-child {
+    margin-right: 10px;
+}
+
+.book-buttons, .author-buttons {
+    text-align: right;
+}
+
+.book-details {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.book-form-edit-wrapper {
+    margin-top: 20px;
+}
